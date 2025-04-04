@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50'>
+    <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-900 dark:text-white sticky top-0 left-0 right-0 z-50'>
          <div className="navbar bg-base-100 shadow-s justify-between">
   <div className="navbar-start ">
     <div className="dropdown">
@@ -42,7 +42,7 @@ const Navbar = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/course'>Course</Link></li>
-        <li><a>Contact</a></li>
+        <li><Link to="/contact">Contact</Link></li>
        <li><a>About</a></li>
       </ul>
     </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1 space-x-5">
     <li><Link to='/'>Home</Link></li>
       <li><Link to='/Course'>Course</Link></li>
-      <li><a>Contact</a></li>
+      <li><Link to="/contact">Contact</Link></li>
       <li><a>About</a></li> 
     </ul>
   </div>

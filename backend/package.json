@@ -1,0 +1,27 @@
+{
+  "name": "booktore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divesh9695/BookStoreApp.git"
+  },
+  "author": "divesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divesh9695/BookStoreApp/issues"
+  },
+  "homepage": "https://github.com/Divesh9695/BookStoreApp#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.0",
+    "nodemon": "^3.1.9"
+  }
+}
