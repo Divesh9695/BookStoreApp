@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const Card = ({item}) => {
   return (
-    <>
+  
     <div> 
     <div className="card m-3 bg-base-100 p-10 shadow-xl hover:scale-105 duration-400">
   <figure>
@@ -23,7 +24,7 @@ const Card = ({item}) => {
   </div>
 </div>
     </div>
-    </>
+  
   )
 }
 
